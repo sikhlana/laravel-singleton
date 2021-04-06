@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.1",
+        "php": "^8.0|^7.3",
         "laravel/framework": "^8.0|^7.0|^6.0|^5.8"
     },
     "require-dev": {
