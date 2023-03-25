@@ -11,10 +11,10 @@
     ],
     "require": {
         "php": "^8.0|^7.3",
-        "laravel/framework": "^9.0|^8.0|^7.0|^6.0|^5.8"
+        "laravel/framework": ">=5.8"
     },
     "require-dev": {
-        "orchestra/testbench": "^6.0|^5.0|^4.0|^3.8"
+        "orchestra/testbench": ">=3.8"
     },
     "config": {
         "sort-packages": true
