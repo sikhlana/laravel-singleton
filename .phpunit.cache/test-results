@@ -1,0 +1,1 @@
+{"version":1,"defects":[],"times":{"Sikhlana\\Singleton\\Test\\SingletonResolveTest::testResolvingShouldNotIncrementCount":0.014,"Sikhlana\\Singleton\\Test\\SingletonResolveTest::testResolvingShouldNotIncrementCountEvenIfBounded":0,"Sikhlana\\Singleton\\Test\\SingletonResolveTest::testResolvingShouldIncrementCount":0}}

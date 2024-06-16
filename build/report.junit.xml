@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="/home/sikhlana/Work/OSS/laravel-singleton/phpunit.xml.dist" tests="3" assertions="30" errors="0" failures="0" skipped="0" time="0.044941">
+    <testsuite name="Sikhlana/Singleton Test Suite" tests="3" assertions="30" errors="0" failures="0" skipped="0" time="0.044941">
+      <testsuite name="Sikhlana\Singleton\Test\SingletonResolveTest" file="/home/sikhlana/Work/OSS/laravel-singleton/tests/SingletonResolveTest.php" tests="3" assertions="30" errors="0" failures="0" skipped="0" time="0.044941">
+        <testcase name="testResolvingShouldNotIncrementCount" file="/home/sikhlana/Work/OSS/laravel-singleton/tests/SingletonResolveTest.php" line="28" class="Sikhlana\Singleton\Test\SingletonResolveTest" classname="Sikhlana.Singleton.Test.SingletonResolveTest" assertions="10" time="0.039718"/>
+        <testcase name="testResolvingShouldNotIncrementCountEvenIfBounded" file="/home/sikhlana/Work/OSS/laravel-singleton/tests/SingletonResolveTest.php" line="38" class="Sikhlana\Singleton\Test\SingletonResolveTest" classname="Sikhlana.Singleton.Test.SingletonResolveTest" assertions="10" time="0.002890"/>
+        <testcase name="testResolvingShouldIncrementCount" file="/home/sikhlana/Work/OSS/laravel-singleton/tests/SingletonResolveTest.php" line="18" class="Sikhlana\Singleton\Test\SingletonResolveTest" classname="Sikhlana.Singleton.Test.SingletonResolveTest" assertions="10" time="0.002334"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

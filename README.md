@@ -21,7 +21,7 @@ You can install the package via composer:
 composer require sikhlana/laravel-singleton
 ```
 
-If your Laravel version is lower than 5.5 you need to install the service provider:
+If you need to install the service provider manually:
 
 ```php
 // config/app.php
@@ -44,14 +44,14 @@ class MySingletonClass implements Singleton
 }
 ```
 
-And voila! You're done. You don't have to declare it manually via service providers or manual coding.
+And voila! You're done.
 
 ## Testing
 
 You can do unit tests by running:
 
 ```bash
-composer test
+vendor/bin/phpunit
 ```
 
 ## Changelog

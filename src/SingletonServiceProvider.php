@@ -3,25 +3,21 @@
 namespace Sikhlana\Singleton;
 
 use Illuminate\Contracts\Container\Container;
-use Illuminate\Support\ServiceProvider as BaseServiceProvider;
+use Illuminate\Support\ServiceProvider;
 
-class SingletonServiceProvider extends BaseServiceProvider
+class SingletonServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
-     *
-     * @return void
      */
-    public function register()
+    public function register(): void
     {
-        $this->app->resolving(function ($object, Container $app) {
-            if ($object instanceof Singleton) {
-                $class = get_class($object);
+        $this->app->resolving(function ($obj, Container $app) {
+            if ($obj instanceof Singleton) {
+                $cls = get_class($obj);
 
-                if (! $app->resolved($class)) {
-                    $app->singleton($class, function () use ($object) {
-                        return $object;
-                    });
+                if (! $app->resolved($cls)) {
+                    $app->singleton($cls, fn () => $obj);
                 }
             }
         });
