@@ -2,11 +2,13 @@
     "name": "sikhlana/laravel-singleton",
     "type": "library",
     "description": "A simple package to automatically mark a class as singleton.",
+    "keywords": ["laravel", "package", "singleton", "dependency injection", "ioc"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Saif M.",
-            "email": "xoxo@saifmahmud.name"
+            "name": "Saif Mahmud",
+            "email": "xoxo@saifmahmud.name",
+            "homepage": "https://saifmahmud.name/"
         }
     ],
     "require": {
