@@ -2,7 +2,4 @@
 
 namespace Sikhlana\Singleton;
 
-interface Singleton
-{
-    //
-}
+interface Singleton {}
