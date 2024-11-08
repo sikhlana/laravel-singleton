@@ -16,13 +16,7 @@ class SingletonServiceProvider extends BaseServiceProvider
     {
         $this->app->resolving(function ($object, Container $app) {
             if ($object instanceof Singleton) {
-                $class = get_class($object);
-
-                if (! $app->resolved($class)) {
-                    $app->singleton($class, function () use ($object) {
-                        return $object;
-                    });
-                }
+                $app->instance(get_class($object), $object);
             }
         });
     }
